@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luzi GV - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+        }
+        .navbar a {
+            color: #ffcc00;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        h1 {
+            color: #ffcc00;
+        }
+        .intro {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #ffcc00;
+            color: black;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover { background-color: #ffaa00; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">🏠 Home</a>
+        <a href="memberships.html">⭐ Memberships</a>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to Luzi GV!</h1>
+        <div class="intro">
+            <h2>Experience the best roleplaying in Roblox Greenville!</h2>
+            <p>Unlock exclusive perks, access special events, and get VIP treatment in-game with our amazing membership plans.</p>
+        </div>
+        <a href="memberships.html" class="button">View Membership Plans</a>
+    </div>
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luzi GV - Memberships</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+        .navbar { background-color: rgba(0, 0, 0, 0.8); padding: 10px; }
+        .navbar a { color: #ffcc00; text-decoration: none; padding: 10px; font-weight: bold; }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .membership {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #ffcc00;
+            color: black;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        button:hover { background-color: #ffaa00; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">🏠 Home</a>
+    </div>
+    
+    <div class="container">
+        <h1>⭐ Choose Your Membership Plan ⭐</h1>
+        <div class="membership">
+            <h2>Silver Membership</h2>
+            <p>💰 Access to exclusive roleplays</p>
+            <p>🚗 Special in-game perks</p>
+            <p>Price: $4.99</p>
+            <button onclick="alert('Silver Membership Purchased!')">Buy Now</button>
+        </div>
+        <div class="membership">
+            <h2>Gold Membership</h2>
+            <p>🔥 All Silver perks + VIP access</p>
+            <p>🏆 Priority in roleplay events</p>
+            <p>Price: $9.99</p>
+            <button onclick="alert('Gold Membership Purchased!')">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
